@@ -40,7 +40,7 @@ properties:
 **Fix:** Use Webflow variable IDs:
 ```
 properties:
-  color: "var(--variable-f8edca52-1fd8-80a3-4324-6fe259f12eff)"
+  color: "var(--variable-<your-variable-id>)"
 ```
 
 Discover variable IDs with `variable_tool` → `get_variables`.

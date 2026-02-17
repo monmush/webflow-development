@@ -61,8 +61,8 @@ Note: Only set properties that DIFFER from the `main` breakpoint. Webflow inheri
 
 ```
 properties:
-  color: "var(--variable-f8edca52-1fd8-80a3-4324-6fe259f12eff)"
-  font-family: "var(--variable-7a17e383-b5cf-ff8d-8d1c-5ca61fae13db)"
+  color: "var(--variable-<your-color-variable-id>)"
+  font-family: "var(--variable-<your-font-variable-id>)"
 ```
 
 Variables are referenced by their Webflow variable ID, not CSS custom property names.
